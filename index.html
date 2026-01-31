@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gastos conscientes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>Controle de Gastos</h1>
+      <button id="themeToggle">🌙</button>
+    </header>
+
+    <form id="form">
+      <input type="text" id="description" placeholder="Descrição" required>
+      <input type="number" id="amount" placeholder="Valor" required>
+      <select id="type">
+        <option value="income">Receita</option>
+        <option value="expense">Despesa</option>
+      </select>
+      <input type="text" id="category" placeholder="Categoria" required>
+      <button type="submit">Adicionar</button>
+    </form>
+
+    <div class="filters">
+      <button data-filter="all">Todas</button>
+      <button data-filter="income">Receitas</button>
+      <button data-filter="expense">Despesas</button>
+    </div>
+
+    <div class="summary">
+      <span id="income">R$ 0</span>
+      <span id="expense">R$ 0</span>
+      <span id="balance">R$ 0</span>
+    </div>
+
+    <ul id="list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
