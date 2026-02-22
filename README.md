@@ -1,4 +1,4 @@
-# 🎮 Trabalho
+# 💸 Trabalho Final IFSC - Controle de Gastos
 Este repositório contém o meu Trabalho Final do curso React e Java Script do IFSC Canoinhas, entregue dia 30/01/2026.
 
 # 📌 Sobre Projeto
